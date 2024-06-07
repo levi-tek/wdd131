@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header h1{
+    background-color:gray;
+    height: 150px;
+    font-style: oblique;
+    color: rgb(15, 35, 54);
+}
+nav{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    color: aliceblue;
+    display: block;
+    text-decoration: none;
+}
+main{
+    background-color:rgb(211, 208, 208) ;
+    grid-column: 1/2;
+    
+}
+aside{
+    background-color: whitesmoke;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+div{
+    display: grid;
+    height: 300px;
+    grid-template-columns: 3fr 1fr;
+}
+footer{
+    background-color: rgb(69, 68, 68);
+    height: 200px;
+    text-align: center;
+    color: aliceblue;
+}
