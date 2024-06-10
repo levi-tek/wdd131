@@ -1,0 +1,117 @@
+*{
+    
+    margin: 0;
+}
+header h1{
+    background-color: rgb(26, 34, 34);
+    color: aliceblue;
+    text-align: center;
+    height: 80px;
+    align-content: center;
+}
+nav{
+    background-color:rgb(29, 70, 105);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: rgb(238, 254, 254);
+    text-decoration:solid;
+    align-content: center;
+    font-weight: bold;
+    font-size: larger;
+}
+nav a:hover{
+    color: rgb(35, 125, 182);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.card h2{
+    background-color:darkslategrey;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    color:azure;
+    text-align: center;
+    height: 50px;
+    align-content: center;
+}
+.card{
+    margin: 10px;
+    border-style:ridge;
+    border-radius: 10px;
+    border-color: grey;
+}
+
+ul a{
+    text-decoration:solid;
+    color:midnightblue ;
+    font-size: larger;
+    font-weight: bold;
+    align-content: center;
+}
+ul{
+    margin-top: 50px;
+}
+ul li{
+    margin-top: 15px;
+}
+ul a:hover{
+    color:cadetblue;
+}
+.bio{
+    display: grid;
+    grid-template-columns: 3fr 1fr;    
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.bio img{
+    border-radius: 5px;
+    margin-left: 15px;
+}
+h3{
+    text-align: center;
+    margin-top: 40px;
+}
+hr{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 4px;
+    color: black;
+    
+
+}
+.bio p{
+    margin-top: 30px;
+    margin-right: 5px;
+}
+.country{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.country p{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+footer{
+    background-color: rgb(26, 34, 34);
+    height: 80px;
+    color: aliceblue;
+    text-align: center;
+    align-content: center;
+}
+#modified{
+    color: rgb(118, 208, 79);
+    font-style: italic;
+}
+figcaption{
+    font-style: italic;
+    color: darkgreen;
+}
