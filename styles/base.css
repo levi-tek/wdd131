@@ -115,3 +115,10 @@ figcaption{
     font-style: italic;
     color: darkgreen;
 }
+#profile {
+    width: 150px;
+    height: 175px;
+}
+#flag{
+    width: 200px;
+}
