@@ -1,0 +1,118 @@
+img {
+    width: 250px;
+    height: 180px
+}
+/* .menu {
+    display: block;
+    font-size:larger ;
+    font-weight:bolder;
+    text-decoration-style: ;
+    text-decoration: ;
+    padding: .5rem .7rem;
+    background-color: ;
+    color: aliceblue;
+/* } */
+
+
+
+
+
+body {
+    margin: auto;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 1vh;
+    
+}
+
+nav {
+  display:  flex;
+  flex-direction: column;
+  /* background-color:rgb(26, 49, 68); */
+  margin: 1rem auto ;
+  /* max-width: 700px; */
+  list-style: none;
+  padding-top: 47px;
+  
+}
+nav a{
+  display: none;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+nav a:hover{
+  background-color: aliceblue;
+  color:rgb(26, 49, 68) ;
+  font-weight: bolder;
+}
+
+#home {
+  font-size: 1.8rem;
+  border: 0;
+  background: none;
+	color: aliceblue;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#home::before{
+  content: "☰";
+}
+
+#home.open::before {
+  content: "X";
+}
+.open a {
+  display: block;
+}
+h1 {
+  text-align: left;
+  font-size: 2.5rem;
+  top: 1rem;
+  position: absolute;
+}
+header{
+  padding: 30px;
+  background-color:rgb(26, 49, 68);
+  grid-column: 1/3;
+  color: aliceblue;
+}
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+footer{
+  position: relative;
+  /* top: 2500px; */
+  grid-column: 1/3;
+  padding: .5em .5em 2em;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  /* max-width: 1500px;
+  margin-left: 35px */
+}
+.temples{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px; 
+  max-width: 1000px;
+}
+figure{
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px;
+}
+
+footer{
+  text-align: center;
+  background-color: rgb(26, 49, 68);
+  color: aliceblue;
+}

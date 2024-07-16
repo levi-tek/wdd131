@@ -59,3 +59,9 @@ td {
     text-align: start;
     width: 50%;
 }
+.main{
+    background-image: url(/images/nigeria-large.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
