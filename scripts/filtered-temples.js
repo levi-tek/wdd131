@@ -132,6 +132,10 @@ function createTempleCard(filteredTemples) {
     card.appendChild(dedication);
     card.appendChild(area);
     card.appendChild(img);
+    card.style.backgroundColor = "#1a3144";
+    card.style.borderRadius = "0.5em";
+    card.style.color = "azure"
+    img.style.borderRadius = "1.5em"
 
     // Append card to the container
     templeContainer.appendChild(card);
