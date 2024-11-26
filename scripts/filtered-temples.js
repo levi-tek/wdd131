@@ -136,6 +136,7 @@ function createTempleCard(filteredTemples) {
     card.style.borderRadius = "0.5em";
     card.style.color = "azure"
     img.style.borderRadius = "1.5em"
+    card.style.textAlign = "center"
 
     // Append card to the container
     templeContainer.appendChild(card);
