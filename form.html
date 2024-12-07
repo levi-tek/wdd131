@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <meta name="description" content=" This is a product review form page using good form design given specific field requirements and submission confirmation with a counter">
+    <meta name="author" content="Levi Oguike">
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <!-- Product review -->
+               <label>
+                    Product Name 
+                    <select name="products" id="products" required> 
+                        <option value="0" disabled selected>Select a product</option>
+                    </select>
+                </label>
+
+                <!-- Overall Rating -->
+                <label>
+                    Overall Rating
+                    <div class="stars">
+                        <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                        <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                        <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                        <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                        <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                    </div>
+                </label>
+
+
+                <!-- Date of Installatio  -->
+                <label>
+                    Date of Installation
+                    <input type="date" id="date" name="date" required>
+                </label>
+
+
+                <!-- useful features -->
+                <div class="features">
+                    <label>Which features did you find useful in the product? <br> <span>(Check all that apply)</span></label>
+                    <label ><input type="checkbox" id="features" name="features" value="Durabilty"> Durabilty</label>
+                    <label ><input type="checkbox" id="features" name="features" value="Ease of Use"> Ease of Use</label>
+                    <label ><input type="checkbox" id="features" name="features" value="Performance"> Performance</label>
+                    <label ><input type="checkbox" id="features" name="features" value="Design"> Design</label>
+                </div> 
+
+
+
+
+                <!-- written review -->
+                 <label>
+                    Written Review <span>(Optional)</span>
+                    <input type="textarea" id="review" name="review">
+                </label>
+
+
+                <!-- User Name -->
+                 <label>
+                    User Name <span>(Optional)</span>
+                    <input type="text" id="username" name="username">
+                </label>
+
+
+                 <!-- Form Submission Button -->
+                  <input type="submit" value="Post Review">
+
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p id="year">&copy;<span id="currentYear"></span> 🥇 Levi O. Oguike 🥇 Nigeria</p>
+        <p id="modified">Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
