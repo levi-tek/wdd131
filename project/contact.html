@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lovas</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/contact.js"></script>
+    <meta name="description" content="The website will focus on showcasing virtual assistant services, specifically targeting small business owners and entrepreneurs">
+    <meta name="author" content="Levi Oguike">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo"><img src="images/logo.png" alt="lovas logo" loading="lazy" width="100px"></a> 
+        <button id="hamburger"></button>
+        <nav id="nav"> 
+            <a href="about.html">About Us</a> 
+            <a href="services.html">Our Services</a> 
+            <a href="contact.html">Get in Touch</a> 
+        </nav>
+    </header>
+    <main>
+            <h1>Contact and Booking</h1>
+            <div class="contact">
+                <div class="fill">
+                    <h2>Reach Out to Us</h2>
+                    <p>Fill out the form below to quickly reach out to us</p>
+                    
+                    <form method="get" action="" id="contactForm">
+                        <fieldset>
+                            <label for="name">
+                                Name: 
+                                <input type="text" id="name" name="name" placeholder="Levi Oguike" required>
+                            </label>
+                            <label for="email">
+                                Email:
+                                <input type="email" id="email" name="email" placeholder="someone@gmail.com" required>
+                            </label>
+                            <label for="inquiries">
+                                Message: 
+                                <textarea name="inquiries" id="inquiries" cols="50" rows="10" placeholder="Give us a brief explanation of what you want" required></textarea>
+                            </label>
+                            <label for="date">
+                                Today's Date:
+                                <input type="date" id="date" name="date" required>
+                            </label>
+                            <input type="submit" value="Submit Inquiry">
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- Contact Options -->
+                <div class="contact-options">
+                    <h2>Get in Touch</h2>
+                    <ul>
+                        <li>Email Us: <a href="mailto:oguikelevi1@gmail.com">lovas@gmail.com</a></li>
+                        <li>Call Us: <a href="tel:+2349121759015">+234 912 1759 015</a></li>
+                        <li>LinkedIn: <a href="https://www.linkedin.com/in/levi-oguike" target="_blank">Lovas</a></li>
+                        <li>WhatsApp Us: <a href="https://wa.me/2349121759015" target="_blank">Message us on WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        
+    </main>
+
+    <footer>
+        <section class="contact">
+            <img src="images/logo.png" alt="logo" loading="lazy" width="85px">
+            <p> <strong>Contact:</strong> <br>+2349121759015 <br> oguikelevi1@gmail.com <br> <br><strong>Address:</strong><br> 446 Oakwood Crescent, Vivtoria Island,  <br> Lagos, Nigeria
+            </p>
+        </section>
+        <section class="social">
+            <Nav>
+                <a href="https://facebook.com" target="_blank"><img src="images/facebook_icon.png" alt="facebook_icon" width="30px" loading="lazy"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="images/link_icon.jpeg" alt="linkedin" width="30px" loading="lazy"></a>
+                <a href="https://twittter.com" target="_blank"><img src="images/x_icon.jpeg" alt="twittter" width="30px" loading="lazy"></a>
+                <a href="https://instagram.com" target="_blank"><img src="images/instagram_icon.jpeg" alt="instagram" width="30px" loading="lazy"></a>
+            </Nav>
+        </section>
+        <section class="legal">
+            <p id="year"> &copy;<span id="currentYear"></span> LOVAS.  All rights reserved.</p>
+            <a href="">Privacy Policy</a> 
+            <a href="">Terms of Service</a>
+        </section>
+        
+    </footer>
+</body>
+</html>

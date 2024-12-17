@@ -36,11 +36,7 @@ form input[type ="textarea"]{
 form span{
     font-style: italic;
     font-size: 14px;
-    color: blue;
-}
-
- form input:required,
- form select:required {
+    color: blueed {
     border-bottom: solid 5px rgb(22, 210, 188);
  }
 

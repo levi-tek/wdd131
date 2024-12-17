@@ -1,0 +1,42 @@
+main{
+    background: linear-gradient(to right, rgb(8, 8, 71), rgb(122, 118, 118));
+}
+main h1{
+    text-align: center;
+    color: aliceblue;
+       
+}
+.fill h2{
+    color: aquamarine;
+}
+.fill p{
+    color: white;
+}
+.contact-options{
+    padding: 70px;
+}
+.contact-options h2{
+    color: aquamarine;
+}
+.contact-options li{
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+}
+.contact-options a{
+    color: azure;
+    text-decoration: none;
+}
+.contact-options a:hover{
+    color: rgb(10, 10, 94);
+}
+
+@media (min-width: 950px){
+    .contact{
+        display: flex;
+        flex-direction: row;
+    }
+    .contact-options{
+        padding: 50px;
+    }
+}
